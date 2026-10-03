@@ -22,7 +22,7 @@ const firebaseConfig = {
 
 
 const OWNER_EMAIL = "johndavidjavier83@gmail.com";
-
+const Owner_PASS = "Iamdavid09";
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
